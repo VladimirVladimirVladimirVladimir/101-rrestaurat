@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: arial;
+}
+a{
+    background-color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+.site-init{    
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+.navigation-bar{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.nav{
+    /*display: flex;
+    align-items: right;*/
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin-left: auto
+    ;
+    margin-right: auto;
+}
+.large-txt{
+    font-size: 48px;
+    text-align: center;
+}
+.sn-txt{
+    font-size:  14px;
+    text-align: center;
+}
+.site-footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.footer-img{
+    align-items: center;
+    width: "300px";
+    height: "300px";
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border: 4px;
+    border-color: black;
+    
+}
+
+.cardAssignment{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gold;
+    color:silver;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.card{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10;
+}
+
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.card p{
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.card a{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border: 4px;
+    border-color: black;
+    
+}
+
+.cardAssignment{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gold;
+    color:silver;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cardAssignment h1{
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.cardAssignment img
+
+
+
+{
+    width: 150px;
+    height: 800px;
+
+    
+    
+    border: 10px;
+    border-radius: 10px;
+}
+
+.cardAssignment p{
+    color: black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cardAssignment a{
+
+    color: black;
+    background-color: silver;
+}
